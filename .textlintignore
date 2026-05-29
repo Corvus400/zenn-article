@@ -1,0 +1,14 @@
+# 取り込み済みの既存公開記事 (pristine 保全)。
+# これらは Zenn で公開済みのため lint で改変せず、ゲート(pre-push)の対象外とする。
+# 今後の新規記事は別 slug のため lint 対象に残る。
+# 補足: ここで除外すると textlint 本体・no-dead-link の両方の対象から外れる。
+articles/06140a15b2d5c6.md
+articles/2f4769319e4532.md
+articles/404e358eaac1f1.md
+articles/55ddcb366cbc50.md
+articles/6a4f24033ba7be.md
+articles/8e6e5a23b918ce.md
+articles/9bac3cdb029244.md
+articles/a21d83d5f74b05.md
+articles/f22a73245b758a.md
+articles/fcd2bf91b60951.md

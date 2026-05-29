@@ -1,0 +1,18 @@
+# 取り込み済みの既存公開記事 (pristine 保全)。
+# prettier は .textlintignore / markdownlint の ignores を読まないため、
+# pre-commit 経路 (lint-staged の prettier --write) でも既存記事を整形しないよう個別に除外する。
+# 新規記事は別 slug のため対象に残る。
+articles/06140a15b2d5c6.md
+articles/2f4769319e4532.md
+articles/404e358eaac1f1.md
+articles/55ddcb366cbc50.md
+articles/6a4f24033ba7be.md
+articles/8e6e5a23b918ce.md
+articles/9bac3cdb029244.md
+articles/a21d83d5f74b05.md
+articles/f22a73245b758a.md
+articles/fcd2bf91b60951.md
+
+# 依存
+node_modules
+package-lock.json

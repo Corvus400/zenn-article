@@ -1,0 +1,30 @@
+{
+  // ルール採否の根拠は docs/writing-lint-policy.md を参照。
+  "config": {
+    // --- Zenn 独自記法と競合するため無効化 ---
+    "MD013": false, // 行長制限を無効 (日本語の改行は自由)
+    "MD024": { "siblings_only": true }, // 同名見出しは兄弟間のみ禁止
+    "MD033": false, // インライン HTML を許可 (Zenn のメッセージボックス等)
+    "MD034": false, // 裸 URL を許可 (リンクカード)
+    "MD041": false, // 先頭が frontmatter のため最初の見出し強制を無効
+    // --- 根拠ベースで無効化 (docs/writing-lint-policy.md) ---
+    "MD045": false, // 画像 alt: WCAG 上、隣接テキストで説明される装飾的画像は空 alt が正
+    "MD025": false, // 複数 H1: Zenn は frontmatter に title を持つため本文 H1 は自由
+    "MD060": false // テーブル列スタイル: 装飾的で表示に影響しないため強制しない
+  },
+  // node_modules と、取り込み済みの既存公開記事 (pristine 保全) を除外する。
+  // 既存記事は公開済みのため整形せず、ゲートの対象外とする。新規記事は別 slug のため対象に残る。
+  "ignores": [
+    "node_modules/**",
+    "articles/06140a15b2d5c6.md",
+    "articles/2f4769319e4532.md",
+    "articles/404e358eaac1f1.md",
+    "articles/55ddcb366cbc50.md",
+    "articles/6a4f24033ba7be.md",
+    "articles/8e6e5a23b918ce.md",
+    "articles/9bac3cdb029244.md",
+    "articles/a21d83d5f74b05.md",
+    "articles/f22a73245b758a.md",
+    "articles/fcd2bf91b60951.md"
+  ]
+}

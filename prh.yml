@@ -1,0 +1,8 @@
+version: 1
+rules:
+  # 表記揺れ辞書のスターター。必要に応じて用語を追加する。
+  # 例:
+  #   - expected: GitHub
+  #     patterns:
+  #       - github
+  #       - Github

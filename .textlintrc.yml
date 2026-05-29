@@ -1,0 +1,25 @@
+# textlint 設定 (日本語文章校正)
+# ルール採否の根拠は docs/writing-lint-policy.md を参照。
+# 既存(取り込み)記事は .textlintignore で除外し無改変保全。本設定は今後の記事に効く。
+filters:
+  # <!-- textlint-disable --> 等のコメント制御を有効化
+  comments: true
+rules:
+  preset-ja-technical-writing:
+    # --- 除去 (根拠ベース。詳細は docs/writing-lint-policy.md) ---
+    # 慣用句を破壊する (例: 「一つ一つ」→「1つ一つ」)。実害を実証したため無効化。
+    arabic-kanji-numbers: false
+    # 「思います」等の主観表現を禁止するが、体験談(type:idea)では自己開示が
+    # 共感・好感の核になるため無効化。
+    ja-no-weak-phrase: false
+    # 「！」「？」を禁止するが、ブログ的な語り口では engagement に寄与するため無効化。
+    no-exclamation-question-mark: false
+    # ですます調の散文 + 箇条書きの体言止めという正当な文体に過剰発火するため無効化。
+    no-mix-dearu-desumasu: false
+    # --- 維持 (既定値) ---
+    # sentence-length(100字), max-ten, max-comma, max-kanji-continuous-len,
+    # no-doubled-joshi, ja-no-redundant-expression, ja-no-successive-word,
+    # 二重否定の禁止, ら抜き言葉の禁止, 逆接「が」の連続禁止 などは既定のまま有効。
+  prh:
+    rulePaths:
+      - prh.yml
