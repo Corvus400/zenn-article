@@ -1,8 +1,6 @@
 <!-- markdownlint-disable MD013 MD033 MD041 -->
 
-<!-- ヘッダー画像を追加する場合は assets/readme/header.png を置き、次の行を有効化してください:
-<img src="./assets/readme/header.png" alt="ヘッダー画像" />
--->
+![ヘッダー画像](./assets/readme/header.png)
 
 # zenn-article
 
