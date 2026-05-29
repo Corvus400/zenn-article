@@ -8,14 +8,14 @@
 
 [Zenn](https://zenn.dev/) に投稿している技術記事を GitHub 連携で管理するリポジトリです。記事は `articles/` 配下に Markdown で配置し、`main` への push で Zenn へ自動デプロイされます。ファイル名がそのまま記事の slug となり、slug が一致する記事は新規投稿ではなく更新として扱われます。
 
-[![Zenn](https://img.shields.io/badge/Zenn-3EA8FF?logo=zenn&logoColor=white)](https://zenn.dev/corvus400)
+[![Zenn](https://img.shields.io/badge/Zenn-3EA8FF?logo=zenn&logoColor=white)](https://zenn.dev/todayama_r)
 [![Node.js](https://img.shields.io/badge/Node.js->=14-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 [![textlint](https://img.shields.io/badge/textlint-ja--technical--writing-3A0839)](./docs/writing-lint-policy.md)
 [![License](https://img.shields.io/github/license/Corvus400/zenn-article)](./LICENSE)
 
 ポートフォリオリポジトリのため外部 PR、一般的なサポート依頼、機能要望、通常のバグ報告は受け付けません。Issue は依存更新や公開リポジトリ運用上の衛生報告のために限定的に有効化しています。
 
-公開ページ: <https://zenn.dev/corvus400>
+公開ページ: <https://zenn.dev/todayama_r>
 
 ---
 
