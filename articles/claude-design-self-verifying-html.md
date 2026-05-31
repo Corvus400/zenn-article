@@ -1,5 +1,5 @@
 ---
-title: "AI が作った HTML デザインに、要件を満たしているか自己検証させる ── Claude Design 出力を実装 SSOT にして design drift を止める"
+title: "Claude Design が作った HTML に、要件を満たしているか自己検証させる"
 emoji: "🔍"
 type: "tech"
 topics:
