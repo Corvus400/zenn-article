@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/Corvus400/zenn-article#readme",
   "dependencies": {
-    "zenn-cli": "^0.4.8"
+    "zenn-cli": "^0.5.2"
   },
   "devDependencies": {
     "husky": "^9.1.7",
